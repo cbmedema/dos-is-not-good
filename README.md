@@ -1,5 +1,8 @@
 This program allows a few packets to be sent to an IP address and a series of ports.
 
+This program uses the library scapy in order to function. If you have yet to install scapy on your machine,
+please run "pip3 install scapy" or "sudo apt-get install scapy"
+
 To run this program, call it with "python3 flood.py -i 192.168.0.1 -p 80 443 -s 8 -m 3"
 
     -i command: Specifies the target IP address.
